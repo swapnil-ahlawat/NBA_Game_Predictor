@@ -15,8 +15,8 @@ File | Content
 webScraping.py | Web Scraping script
 featureEngineering.py | Raw Data to Features Script
 player.py | Model training and testing on Players Statistics
-team.py | ML training and testing on Team Statistics
-teamAndPlayer.py | ML training and testing on Combined Team and Players Statistics
+team.py | Model training and testing on Team Statistics
+teamAndPlayer.py | Model training and testing on Combined Team and Players Statistics
 
 *Note:- All the required libraries are mentioned in 'requirements.txt' and can be directly pip installed.*
 
@@ -44,4 +44,4 @@ To see results when models were feeded only player features:- run python script 
 To see results when models were feeded both team and player features:- run python script 'teamAndPlayer.py'
 >> python3 teamAndPlayer.py
 
-Note: The coorelation matrix has been commented out because it gives error on running from command line. In case if you want to try that code on notebook, please have matplotlib library installed.
+*Note: The coorelation matrix has been commented out because it gives error on running from command line. In case if you want to try that code on notebook, please have matplotlib library installed.*

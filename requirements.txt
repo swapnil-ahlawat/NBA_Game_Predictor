@@ -1,0 +1,7 @@
+bs4
+selenium
+webdriver_manager
+pandas
+numpy
+sklearn
+seaborn
